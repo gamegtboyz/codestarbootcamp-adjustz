@@ -1,0 +1,24 @@
+<project>
+<modelVersion>4.0.0</modelVersion>
+<groupId>work.codestar</groupId>
+<artifactId>cryptocurrency</artifactId>
+<version>demo</version>
+<packaging>jar</packaging>
+    <properties>        
+        <project.build.sourceencoding>UTF-8</project.build.sourceencoding>
+        <maven.compiler.source>17</maven.compiler.source>
+        <maven.compiler.target>17</maven.compiler.target>
+    </properties>
+    <dependencies>
+        <dependency>
+            <groupId>jakarta.json</groupId>
+            <artifactId>jakarta.json-api</artifactId>
+            <version>RELEASE</version>
+        </dependency>
+        <dependency>
+            <groupId>org.glassfish</groupId>
+            <artifactId>jakarta.json</artifactId>
+            <version>RELEASE</version>
+        </dependency>
+    </dependencies>
+</project>
